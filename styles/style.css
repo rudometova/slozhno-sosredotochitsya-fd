@@ -16,7 +16,6 @@
   grid-template-rows: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
-  /*min-block-size: clamp(41.75rem, 20.5191rem + 90.5852vw, 64rem);*/
   min-block-size: 668px; 
   block-size: 100vh;
   font-size: var(--main-text-size, 18px);
