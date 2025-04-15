@@ -16,7 +16,7 @@
   grid-template-rows: 1fr min-content 1fr;
   justify-items: end;
   align-items: center;
-  min-block-size: 668px; 
+  min-block-size: 668px;
   block-size: 100vh;
   font-size: var(--main-text-size, 18px);
   color: var(--nav-color, #ff0070);
@@ -113,7 +113,7 @@
 }
 .accent_link:hover {
   border-bottom: 1px solid var(--main-text-color, #f1b2ce);
-} 
+}
 .accent_link:focus-visible {
   outline: 1px solid var(--main-text-color, #f1b2ce);
 }
