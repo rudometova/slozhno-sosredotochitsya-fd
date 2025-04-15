@@ -72,7 +72,6 @@
 }
 .header__theme-menu-button {
   background: none;
-  border: none;
   text-transform: lowercase;
   padding: 0px 13px 3px 13px;
   cursor: pointer;
@@ -137,9 +136,9 @@
   font-size: inherit;
 }
 .main_section_content {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
 }
 .main_section_content_card {
   display: flex;
@@ -272,7 +271,6 @@
     grid-column-end: 4;
   }
   .section_what .main_section_content {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
   .section_how .main_section_content {
